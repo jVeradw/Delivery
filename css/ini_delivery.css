@@ -1,0 +1,218 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	position: fixed;
+	z-index:3;
+	/*top:0%;*/
+	/*display: block;*/
+	border-top: 10px solid #f6ff00;
+	background-color: #fff;
+	/*background: rgb(2,0,36);
+	background: linear-gradient(0deg, #fff 0%, skyblue 100%, skyblue 100%);*/
+	display: flex;
+    padding: 0px;
+   	padding-left: 10px;
+    margin: 0px;
+    width: 100%;
+}
+header .delivery{
+	width: 50px;
+	height: 60px;
+	margin: 0px;
+	padding: 0px;
+}
+header .imgLinea{
+	padding-top: 10px;
+	height: 50px;
+	width: 30px;
+}
+header h1{
+	width: auto;
+	display: flex;
+	font-family: cambria;
+	color: #4ebeee;
+	clear: both;
+	font-size: 150%;
+	margin: 0px;
+	padding: 0px;
+	/*-webkit-text-stroke: 1px #fff;
+	text-shadow: 2px 5px 5px #000;
+  	/*color: transparent; */
+}
+header h2{
+	width: auto;
+	display: inline-block;
+	font-size: 100%;
+	font-family: sans-serif;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	color: #888181;
+}
+header	div{
+	width: auto;
+	/*border: 5px solid #000;*/
+	height: 2%;
+}
+header nav{
+	text-align: right;
+	width: 60%;
+	/*border: 5px solid #000;*/
+	padding: 0px;
+	padding-top: 10px;
+}
+footer {
+	color: #fff;
+	border-top: 20px solid #ff4800;
+	width: 100%;
+	background-color: #4ebeee;
+	text-align: center;
+}
+footer img{
+	width: 30px;
+	display: inline;
+}
+footer h1{
+	width: 100%;
+	text-align: center;
+	display: inline;
+	font-size: 30px;
+}
+footer h2{
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+footer h3{
+	width: 100%;
+	text-align: center;
+	font-size: 15x;
+}
+
+/*-------   INICIO HEADER   ---------*/
+.menu li{
+	display: inline;
+	padding: 02%;
+}
+
+.menu li a{
+	color: #333333;
+	text-decoration: none;
+	/*text-shadow: 3px 3px 3px #fff;*/
+	font-family: sans-serif;
+}
+
+.slider {
+
+	z-index:1;
+	width: 100%;
+	background-color: #fff;
+	background-size: 100% 100%;
+}
+/*-------   FIN HEADER   ---------*/
+
+/*-------   INICIO CUADROS   ---------*/
+#cuadros {
+	padding: 2%;
+	text-align: center;
+	width: 100%;
+	/*background-image: url("../img/fondo_ciudad.jpg");*/
+	background-size: 100% 100%;
+}
+#cuadros .linea{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	width: 100%;
+}
+#cuadros .linea .cua{
+	font-size: 25px;
+	font-family: sans-serif;
+	text-shadow: 0px 8px 5px #000;
+	color: #fff;
+	padding: 2%;
+	display: inline-block;
+	margin: 10px;
+	height: 200px;
+	/*border: 10px solid #000;*/
+	border-radius: 10%;
+	width: 25%;
+}
+#cua001{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cua002{ background-color: #e66250; background-image: url("../img/catFerreteria.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cua003{ background-color: #50e6a1; background-image: url("../img/catPapeleria.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cua004{ background-color: #e88be3; background-image: url("../img/catSuper.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cua005{ background-color: #e88b96; background-image: url("../img/catMercado.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cua006{ background-color: #8b8de8; background-image: url("../img/catComida.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cua007{ background-color: #d4f14e; background-image: url("../img/catFloreria.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cua008{ background-color: #a8e88b; background-image: url("../img/catVeterinaria.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+/*-------   FIN CUADROS   ---------*/
+
+/*-------   INICIO CIRCULOS   ---------*/
+#circulos {
+	padding: 2%;
+	text-align: center;
+	width: 100%;
+	/*background-color: #fff;*/
+	/*background-image: url("../img/fondo_ciudad.jpg");*/
+	background-size: 100% 100%;
+}
+#circulos .linea{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+	width: 100%;
+}
+#circulos .linea .cir{
+	display: inline-block;
+	margin: 10px;
+	height: 220px;
+	border: 10px solid #000;
+	border-radius: 100%;
+	width: 18%;
+}
+#circulos a{
+	display: block;
+	text-align: right;
+	padding-right: 20%;
+}
+#cuadros a{
+	display: block;
+	text-align: right;
+	padding-right: 20%;
+}
+#cir1{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cir2{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cir3{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cir4{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cir5{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cir6{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cir7{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+#cir8{ background-color: #50a5e6; background-image: url("../img/catFarmacia.png");background-size: 40% 50%; background-position: center; background-repeat: no-repeat;}
+/*-------   FIN CIRCULOS   ---------*/
+
+/*-------   INICIO ENTERATE   ---------*/
+.tema{
+	font-size: 25px;
+	color: #949493;
+}
+#enterate {
+	padding: 2%;
+	text-align: center;
+	width: 100%;
+	/*background-color: #949493;*/
+	/*background-image: url("../img/fondo_ciudad.jpg");*/
+	background-size: 100% 100%;
+}
+
+/*-------   FIN CUADROS   ---------*/
+
+
+/*-------   INICIO FOOTER   ---------*/
+#lugar h3{
+	text-align: center;
+	font-size: 20px;
+}
+/*-------   FIN FOOTER   ---------*/
